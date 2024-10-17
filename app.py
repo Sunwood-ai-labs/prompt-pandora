@@ -2,14 +2,17 @@ import streamlit as st
 import os
 from litellm import completion
 
+st.set_page_config(layout="wide")
+
 # AWS Bedrock credentials
-os.environ["AWS_ACCESS_KEY_ID"] = st.secrets["AWS_ACCESS_KEY_ID"]
-os.environ["AWS_SECRET_ACCESS_KEY"] = st.secrets["AWS_SECRET_ACCESS_KEY"]
-os.environ["AWS_REGION_NAME"] = st.secrets["AWS_REGION_NAME"]
+# os.environ["AWS_ACCESS_KEY_ID"] = st.secrets["AWS_ACCESS_KEY_ID"]
+# os.environ["AWS_SECRET_ACCESS_KEY"] = st.secrets["AWS_SECRET_ACCESS_KEY"]
+# os.environ["AWS_REGION_NAME"] = st.secrets["AWS_REGION_NAME"]
 
 def generate_prompt(task_or_prompt: str):
     response = completion(
-        model="bedrock/anthropic.claude-3-sonnet-20240229-v1:0",
+        # model="bedrock/anthropic.claude-3-sonnet-20240229-v1:0",
+        model="claude-3-5-sonnet-20240620",        
         messages=[
             {
                 "role": "system",
