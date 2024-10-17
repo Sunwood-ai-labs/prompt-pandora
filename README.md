@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_III/refs/heads/main/docs/HarmonAI-III.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/prompt-pandora/refs/heads/main/docs/prompt-pandora.png" width="100%">
   <h1 align="center">🌟 Prompt Pandora 🌟</h1>
 </p>
 
