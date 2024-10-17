@@ -78,69 +78,36 @@
 
 ## 🚀 プロジェクト概要
 
-Prompt Pandoraは、タスクの説明や既存のプロンプトを入力として受け取り、AIモデルを効果的に導くための詳細なシステムプロンプトを生成するWebアプリケーションです。このツールは、開発者やAIユーザーが高品質なプロンプトを簡単に作成できるよう設計されています。
+Prompt Pandora v1.0.0は、プロンプト生成アプリの最初の正式リリースです。Streamlit を使用したユーザーフレンドリーなインターフェースで、Claude 3.5 Sonnet モデルを活用して、タスクの説明や既存のプロンプトから詳細なシステムプロンプトを生成します。
 
 ## ✨ 主な機能
 
-1. **タスクベースのプロンプト生成**: タスクの説明から詳細なプロンプトを自動生成
-2. **既存プロンプトの改善**: 既存のプロンプトを入力として受け取り、より効果的なバージョンを提案
-3. **ユーザーフレンドリーなインターフェース**: Streamlitを使用した直感的なWebインターフェース
-4. **AI駆動の生成プロセス**: Claude 3.5 Sonnetモデルを使用した高度なプロンプト生成
-5. **カスタマイズ可能なテーマ**: Streamlitの設定ファイルによるUIのカスタマイズ
+- タスクの説明から詳細なプロンプトを自動生成
+- 既存のプロンプトを入力として受け取り、より効果的なバージョンを提案
+- Streamlitを使用した直感的なWebインターフェース
+- Claude 3.5 Sonnetモデルを使用した高度なプロンプト生成
 
-## 🛠️ 技術スタック
 
-- **フロントエンド**: Streamlit
-- **バックエンド**: Python
-- **AIモデル**: Claude 3.5 Sonnet (litellmを使用)
-- **その他**: dotenv (環境変数管理)
+## 🔧 使用方法
 
-## 🔧 セットアップと使用方法
+1. リポジトリをクローンします:  `git clone https://github.com/Sunwood-ai-labs/prompt-pandora.git`
+2. ディレクトリに移動します: `cd prompt-pandora`
+3. 仮想環境を作成し、アクティベートします: `python -m venv venv && source venv/bin/activate` (Windowsの場合は `venv\Scripts\activate`)
+4. 依存関係をインストールします: `pip install -r requirements.txt`
+5. `.env.example`ファイルを`.env`にコピーし、必要な環境変数を設定します (必要に応じて)。
+6. アプリケーションを実行します: `streamlit run app.py`
+7. ブラウザで`http://localhost:8501`を開き、Prompt Pandoraを使用します。
 
-1. リポジトリをクローンします:
-   ```bash
-   git clone https://github.com/Sunwood-ai-labs/prompt-pandora.git
-   cd prompt-pandora
-   ```
 
-2. 仮想環境を作成し、アクティベートします:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+## 📦 インストール手順
 
-3. 依存関係をインストールします:
-   ```bash
-   pip install -r requirements.txt
-   ```
+上記「使用方法」セクションを参照してください。
 
-4. `.env.example`ファイルを`.env`にコピーし、必要な環境変数を設定します:
-   ```bash
-   cp .env.example .env
-   ```
 
-5. アプリケーションを実行します:
-   ```bash
-   streamlit run app.py
-   ```
+## 🆕 最新情報 (v1.0.0)
 
-6. ブラウザで`http://localhost:8501`を開き、Prompt Pandoraを使用します。
+- プロンプト生成アプリの最初のリリース。
 
-## 📦 プロジェクト構造
-
-```plaintext
-prompt-pandora/
-├── app.py
-├── README.md
-├── requirements.txt
-├── .env.example
-└── .streamlit/
-    └── config.toml
-```
-
-## 🤝 コントリビューション
-
-Prompt Pandoraへの貢献を歓迎します！バグ報告、機能リクエスト、プルリクエストなど、あらゆる形での貢献をお待ちしています。
 
 ## 📄 ライセンス
 
@@ -148,8 +115,7 @@ Prompt Pandoraは[MITライセンス](LICENSE)の下で公開されています�
 
 ## 🙏 謝辞
 
-- Prompt Pandoraの開発にインスピレーションを与えてくれた、オープンソースコミュニティの皆様に感謝します。
-- AIモデルの提供元であるAnthropicに感謝いたします。
+- オープンソースコミュニティとAnthropic に感謝します。
 
 ---
 
