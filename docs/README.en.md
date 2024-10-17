@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/prompt-pandora/refs/heads/main/docs/prompt-pandora.png" width="100%">
-  <h1 align="center">🌟 Prompt Pandora 🌟</h1>
+  <h1 align="center">🚀 Prompt Pandora 🚀</h1>
 </p>
 
 <p align="center">
@@ -74,26 +74,26 @@
 </h2>
 
 > **[!IMPORTANT]**
-> Prompt Pandora is a web application developed using the latest AI technology for prompt generation. This tool helps create effective prompts, enabling better communication with AI.
+> Prompt Pandora is a web application developed using the latest AI technology for prompt generation. This tool assists in creating effective prompts, enabling better communication with AI.
 
 ## 🚀 Project Overview
 
-Prompt Pandora is a web application that takes task descriptions and existing prompts as input and generates detailed system prompts to effectively guide AI models. This tool is designed to help developers and AI users easily create high-quality prompts.
+Prompt Pandora is a web application that takes task descriptions or existing prompts as input and generates detailed system prompts to effectively guide AI models. This tool is designed to enable developers and AI users to easily create high-quality prompts.
 
-## ✨ Main Features
+## ✨ Key Features
 
-1. **Task-based prompt generation:** Automatically generates detailed prompts from task descriptions.
-2. **Existing prompt improvement:** Takes existing prompts as input and suggests more effective versions.
-3. **User-friendly interface:** Intuitive web interface using Streamlit.
-4. **AI-driven generation process:** Advanced prompt generation using the Claude 3.5 Sonnet model.
-5. **Customizable theme:** UI customization through Streamlit's configuration file.
+1. **Task-Based Prompt Generation**: Automatically generates detailed prompts from task descriptions.
+2. **Existing Prompt Improvement**: Takes existing prompts as input and suggests more effective versions.
+3. **User-Friendly Interface**: Intuitive web interface using Streamlit.
+4. **AI-Driven Generation Process**: Advanced prompt generation using the Claude 3.5 Sonnet model.
+5. **Customizable Theme**: UI customization via Streamlit configuration files.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit
-- **Backend:** Python
-- **AI Model:** Claude 3.5 Sonnet (using litellm)
-- **Other:** dotenv (environment variable management)
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **AI Model**: Claude 3.5 Sonnet (using litellm)
+- **Other**: dotenv (environment variable management)
 
 ## 🔧 Setup and Usage
 
@@ -140,7 +140,7 @@ prompt-pandora/
 
 ## 🤝 Contributions
 
-Contributions to Prompt Pandora are welcome! We appreciate all forms of contributions, including bug reports, feature requests, and pull requests.
+Contributions to Prompt Pandora are welcome!  We encourage bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
@@ -149,8 +149,8 @@ Prompt Pandora is released under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Thanks to the open-source community for inspiring the development of Prompt Pandora.
-- Thank you to Anthropic for providing the AI model.
+- Thanks to Anthropic for providing the AI model.
 
 ---
 
-Use Prompt Pandora to improve your communication with AI and create more effective prompts!  Feel free to open an issue if you have any questions or suggestions.
+Use Prompt Pandora to improve your communication with AI and create more effective prompts!  Please feel free to open an issue if you have any questions or suggestions.
