@@ -47,5 +47,5 @@ if __name__ == "__main__":
 
 # python github_add_collaborator.py HarmonAI-III iris-s-coon
 # python github_add_collaborator.py HarmonAI-III iris-s-coon
-# python .\.github\github_add_collaborator.py Sunwood-ai-labs/HarmonAI_III yukihiko-fuyuki
+# python .\.github\github_add_collaborator.py Sunwood-ai-labs/prompt-pandora iris-s-coon
 # python .\.github\github_add_collaborator.py Sunwood-ai-labs/HarmonAI_III yukihiko-fuyuki
