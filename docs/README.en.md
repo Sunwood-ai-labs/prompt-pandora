@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/prompt-pandora/refs/heads/main/docs/prompt-pandora.png" width="100%">
-  <h1 align="center">🌟 Prompt Pandora 🌟</h1>
+  <h1 align="center">🚀 Prompt Pandora 🚀</h1>
 </p>
 
 <p align="center">
@@ -78,69 +78,36 @@
 
 ## 🚀 Project Overview
 
-Prompt Pandora is a web application that takes task descriptions and existing prompts as input and generates detailed system prompts to effectively guide AI models. This tool is designed to help developers and AI users easily create high-quality prompts.
+Prompt Pandora v1.0.0 is the first official release of the prompt generation app.  With a user-friendly interface built using Streamlit, it leverages the Claude 3.5 Sonnet model to generate detailed system prompts from task descriptions and existing prompts.
 
-## ✨ Main Features
+## ✨ Key Features
 
-1. **Task-based prompt generation:** Automatically generates detailed prompts from task descriptions.
-2. **Existing prompt improvement:** Takes existing prompts as input and suggests more effective versions.
-3. **User-friendly interface:** Intuitive web interface using Streamlit.
-4. **AI-driven generation process:** Advanced prompt generation using the Claude 3.5 Sonnet model.
-5. **Customizable theme:** UI customization through Streamlit's configuration file.
+- Automatically generates detailed prompts from task descriptions.
+- Accepts existing prompts as input and suggests more effective versions.
+- Intuitive web interface using Streamlit.
+- Advanced prompt generation using the Claude 3.5 Sonnet model.
 
-## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit
-- **Backend:** Python
-- **AI Model:** Claude 3.5 Sonnet (using litellm)
-- **Other:** dotenv (environment variable management)
+## 🔧 How to Use
 
-## 🔧 Setup and Usage
+1. Clone the repository:  `git clone https://github.com/Sunwood-ai-labs/prompt-pandora.git`
+2. Navigate to the directory: `cd prompt-pandora`
+3. Create and activate a virtual environment: `python -m venv venv && source venv/bin/activate` (Use `venv\Scripts\activate` on Windows)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Copy the `.env.example` file to `.env` and set the necessary environment variables (as needed).
+6. Run the application: `streamlit run app.py`
+7. Open `http://localhost:8501` in your browser to use Prompt Pandora.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sunwood-ai-labs/prompt-pandora.git
-   cd prompt-pandora
-   ```
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+## 📦 Installation Instructions
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+See the "How to Use" section above.
 
-4. Copy the `.env.example` file to `.env` and set the necessary environment variables:
-   ```bash
-   cp .env.example .env
-   ```
 
-5. Run the application:
-   ```bash
-   streamlit run app.py
-   ```
+## 🆕 What's New (v1.0.0)
 
-6. Open `http://localhost:8501` in your browser to use Prompt Pandora.
+- First release of the prompt generation app.
 
-## 📦 Project Structure
-
-```plaintext
-prompt-pandora/
-├── app.py
-├── README.md
-├── requirements.txt
-├── .env.example
-└── .streamlit/
-    └── config.toml
-```
-
-## 🤝 Contributions
-
-Contributions to Prompt Pandora are welcome! We appreciate all forms of contributions, including bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
@@ -148,8 +115,7 @@ Prompt Pandora is released under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgements
 
-- Thanks to the open-source community for inspiring the development of Prompt Pandora.
-- Thank you to Anthropic for providing the AI model.
+- Thanks to the open-source community and Anthropic.
 
 ---
 
