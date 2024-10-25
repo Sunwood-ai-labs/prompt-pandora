@@ -11,8 +11,8 @@ st.set_page_config(layout="wide")
 
 def generate_prompt(task_or_prompt: str):
     response = completion(
-        # model="bedrock/anthropic.claude-3-sonnet-20240229-v1:0",
-        model="claude-3-5-sonnet-20240620",        
+        model="anthropic.claude-3-5-sonnet-20240620-v1:0",
+        # model="claude-3-5-sonnet-20240620",        
         messages=[
             {
                 "role": "system",
