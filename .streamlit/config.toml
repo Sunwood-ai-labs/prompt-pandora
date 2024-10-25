@@ -1,6 +1,27 @@
 [theme]
-primaryColor = "#8CBEB2"
-backgroundColor = "#F2EBBF"
-secondaryBackgroundColor = "#5C4B51"
-textColor = "#F06060"
+
+# Primary Color - ビビッドな青を使用してアクセントに
+primaryColor = "#05C7F2"
+
+# Background Colors - 白系の背景で読みやすく
+backgroundColor = "#F2F2F2"
+secondaryBackgroundColor = "#F2F2F2"
+
+# Text Color - オレンジ系で視認性の高いテキスト
+textColor = "#F26430"
+
+# Font Settings
 font = "sans serif"
+
+# Additional Component Settings
+[theme.components]
+# Interactive Elements
+buttonColor = "#D94194"
+sliderColor = "#05C7F2"
+
+# Highlighting and Alerts
+warningColor = "#F2D022"
+errorColor = "#F26430"
+
+# Base Theme
+base = "light"
